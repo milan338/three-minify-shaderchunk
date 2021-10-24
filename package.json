@@ -9,8 +9,10 @@
     "keywords": [
         "three.js",
         "minify",
+        "webpack",
         "shader"
     ],
-    "author": "milan338",
+    "author": "milan338 (https://github.com/milan338)",
+    "homepage": "https://github.com/milan338/three-minify-shaderchunk",
     "license": "MIT"
 }
