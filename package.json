@@ -1,6 +1,6 @@
 {
     "name": "three-minify-shaderchunk",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Remove unnecessary three.js shader imports and reduce bundle sizes",
     "main": "index.js",
     "scripts": {

@@ -29,7 +29,7 @@ module.exports = {
         include: path.resolve('./node_modules/three/src/renderers/shaders'),
         options: {
           search: /[\s\S]*/,
-          replace: transformShaders(['fog_vertex', 'fog_fragment']),
+          replace: transformShaderChunk(['fog_vertex', 'fog_fragment']),
           strict: true,
         },
       },
@@ -41,6 +41,6 @@ module.exports = {
 
 ## License
 
-[MIT License](LICENSE)
+[MIT License](https://github.com/milan338/three-minify-shaderchunk/blob/master/LICENSE)
 
 
