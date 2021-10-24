@@ -1,0 +1,16 @@
+{
+    "name": "three-minify-shaderchunk",
+    "version": "1.0.0",
+    "description": "Remove unnecessary three.js shader imports and reduce bundle sizes",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "three.js",
+        "minify",
+        "shader"
+    ],
+    "author": "milan338",
+    "license": "MIT"
+}
