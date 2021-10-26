@@ -18,6 +18,7 @@
 ```js
 // Webpack config
 const transformShaderChunk = require('three-minify-shaderchunk');
+const shadersToInclude = require('three-minify-shaderchunk/examples/all_shaders');
 
 module.exports = {
   // ...
@@ -29,7 +30,7 @@ module.exports = {
         include: path.resolve('./node_modules/three/src/renderers/shaders'),
         options: {
           search: /[\s\S]*/,
-          replace: transformShaderChunk(['fog_vertex', 'fog_fragment']),
+          replace: transformShaderChunk(shadersToInclude),
           strict: true,
         },
       },
